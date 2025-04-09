@@ -27,3 +27,17 @@
 
   - [rust](./program/rust/index.md)
     - [主要思想](./program/rust/chapter_1.md)
+
+  - [LLM](./program/LLM/index.md)
+    - [MCP](./program/LLM/chapter_1.md)
+
+  - [前端开发](./program/front/index.md)
+    - [名词解释](./program/front/chapter_1.md)
+
+  - [数据库](./program/database/index.md)
+    - [理论基础](./program/database/chapter_1.md)
+    - [sql](./program/database/chapter_2.md)
+    - [postgresql](./program/database/chapter_3.md)
+    - [spark](./program/database/chapter_4.md)
+    - [hadoop](./program/database/chapter_5.md)
+    - [数据建模](./program/database/chapter_6.md)

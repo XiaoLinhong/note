@@ -11,7 +11,16 @@ description = "mdbook"
 mathjax-support = true
 git-repository-url = "https://github.com/XiaoLinhong/note"
 git-repository-icon = "fa-github"
+additional-js = ["./custom.js"]
+additional-css = ["./mdbook-admonish.css"]
 
 # [output.html.fold]
 # enable = true
 # level = 1
+
+[preprocessor]
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "3.0.3" # do not edit: managed by `mdbook-admonish install`
+
