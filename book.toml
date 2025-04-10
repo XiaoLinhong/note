@@ -28,25 +28,17 @@ assets_version = "3.0.3" # do not edit: managed by `mdbook-admonish install`
 scroll-to-top.enable = true
 
 footer.enable = true
-
 footer.message = "Copyright © 2025 • Created with ❤️ by [XiaoLinhong](https://github.com/XiaoLinhong)"
 
 giscus.enable = true
-
 giscus.repo = "XiaoLinhong/note"
-
-giscus.repo-id = "R_kgDOLCxX0Q"
-
+giscus.repo-id = "R_kgDOOPhlxA"
 giscus.category = "General"
-
-giscus.category-id = "DIC_kwDOLCxX0c4CdGx-"
-
+giscus.category-id = "DIC_kwDOOPhlxM4Co9Gh"
+giscus.mapping = "pathname"
 giscus.reactions-enabled = "1"
-
 giscus.data-theme="book"
-
 giscus.data-lang="zh-CN"
-
 giscus.loading = "eager"
 
 [preprocessor.mermaid]

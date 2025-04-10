@@ -358,3 +358,4 @@ JOIN products p ON pu.product_id = p.product_id
 JOIN courses c ON p.course_id = c.course_id
 WHERE u.role_id = 1;
 ```
+
