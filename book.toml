@@ -11,7 +11,7 @@ description = "mdbook"
 mathjax-support = true
 git-repository-url = "https://github.com/XiaoLinhong/note"
 git-repository-icon = "fa-github"
-additional-js = ["./custom.js"]
+additional-js = ["./custom.js", "mermaid.min.js", "mermaid-init.js"]
 additional-css = ["./mdbook-admonish.css"]
 
 # [output.html.fold]
@@ -24,3 +24,30 @@ additional-css = ["./mdbook-admonish.css"]
 command = "mdbook-admonish"
 assets_version = "3.0.3" # do not edit: managed by `mdbook-admonish install`
 
+[preprocessor.embedify]
+scroll-to-top.enable = true
+
+footer.enable = true
+
+footer.message = "Copyright © 2025 • Created with ❤️ by [XiaoLinhong](https://github.com/XiaoLinhong)"
+
+giscus.enable = true
+
+giscus.repo = "XiaoLinhong/note"
+
+giscus.repo-id = "R_kgDOLCxX0Q"
+
+giscus.category = "General"
+
+giscus.category-id = "DIC_kwDOLCxX0c4CdGx-"
+
+giscus.reactions-enabled = "1"
+
+giscus.data-theme="book"
+
+giscus.data-lang="zh-CN"
+
+giscus.loading = "eager"
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"

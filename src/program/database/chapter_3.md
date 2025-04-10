@@ -1,5 +1,8 @@
 # postgresql
 
+> PostgreSQL is a powerful, open source object-relational database system with over 35 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.
+
+
 ## 安装
 下载
 ``` bash
@@ -59,7 +62,7 @@ with psycopg2.connect(**serverKargs) as fh:
     with fh.cursor() as cursor:    
         cursor.execute("SELECT version();")
         print("PostgreSQL info:", cursor.fetchone())
-        
+
         # 插入
         data = [("demo1", "demo1@expm.com"), ("demo2", "demo2@expm.com"), ("demo3", "demo3@expm.com")]
         cursor.executemany("INSERT INTO users (name, email) VALUES (%s, %s)", data)
@@ -79,3 +82,31 @@ with psycopg2.connect(**serverKargs) as fh:
         for row in cursor.fetchall():
             print(row)
 ```
+
+## 支持的数据结构
+PostgreSQL支持的数据结构非常丰富，[官网文档](https://www.postgresql.org/docs/current/datatype.html)给了详细说明。
+
+
+入门时可能会用到的数据据结构：
+
+- 数字相关: 
+  - 整数类型（integer types）: 
+    - smallint，2字节
+    - integer，4字节
+    - bigint，8字节
+  - 序列类型（serial types）: 序列类型通常用于自增ID，一般是为了PRIMARY KEY。
+    - smallserial，2字节
+    - serial，4字节
+    - bigserial，8字节
+  - 浮点
+    - float4，单精度，4字节
+    - float8，双精度，8字节
+- 字符类型
+  - varchar(n)， 有长度限制的字符串
+  - char(n)，定长字符串，长度不足则向后填充空白字符
+  - text，不限长度
+- 时间
+  - timestamp，'2019-12-12 11:30:30'
+- JSON 类型
+  - json
+  - jsonb

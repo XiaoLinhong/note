@@ -38,6 +38,6 @@
     - [理论基础](./program/database/chapter_1.md)
     - [sql](./program/database/chapter_2.md)
     - [postgresql](./program/database/chapter_3.md)
+    - [数据建模](./program/database/chapter_6.md)
     - [spark](./program/database/chapter_4.md)
     - [hadoop](./program/database/chapter_5.md)
-    - [数据建模](./program/database/chapter_6.md)
