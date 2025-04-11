@@ -25,6 +25,10 @@
   - [文档工具](./program/docs/index.md)
     - [mdbook 的备忘录](./program/docs/chapter_1.md)
 
+  - [开发工具](./program/devs/index.md)
+    - [WSL](./program/devs/chapter_1.md)
+    - [docker](./program/devs/chapter_2.md)
+
   - [rust](./program/rust/index.md)
     - [主要思想](./program/rust/chapter_1.md)
 
@@ -38,6 +42,8 @@
     - [理论基础](./program/database/chapter_1.md)
     - [sql](./program/database/chapter_2.md)
     - [postgresql](./program/database/chapter_3.md)
-    - [数据建模](./program/database/chapter_6.md)
-    - [spark](./program/database/chapter_4.md)
-    - [hadoop](./program/database/chapter_5.md)
+    - [数据建模](./program/database/chapter_4.md)
+  
+  - [大数据技术](./program/bigData/index.md)
+    - [hadoop](./program/bigData/chapter_1.md)
+    - [spark](./program/bigData/chapter_2.md)
