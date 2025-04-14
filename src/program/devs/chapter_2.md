@@ -22,7 +22,7 @@ Docker Desktop 实际上在后台启动一个 Linux 虚拟机（WSL2 后端）�
 
 ## 常用命令
 
-## 镜像相关
+### 镜像相关
 
 | 命令 | 说明 |
 |------|------|
@@ -46,9 +46,9 @@ Docker Desktop 实际上在后台启动一个 Linux 虚拟机（WSL2 后端）�
 | `docker start <容器ID或名称>` | 启动已停止的容器 |
 | `docker restart <容器ID或名称>` | 重启容器 |
 | `docker rm <容器ID或名称>` | 删除容器（需先停止） |
-| `docker logs <容器ID>` | 查看容器输出日志 |
+| `docker logs <容器ID或名称>` | 查看容器输出日志 |
 
-## 网络与数据卷
+### 网络与数据卷
 
 | 命令 | 说明 |
 |------|------|
@@ -58,7 +58,8 @@ Docker Desktop 实际上在后台启动一个 Linux 虚拟机（WSL2 后端）�
 | `docker volume create <名称>` | 创建数据卷 |
 | `docker run -v <本地路径>:<容器路径>` | 挂载本地目录到容器 |
 
-## 清理命令
+
+### 清理命令
 
 | 命令 | 说明 |
 |------|------|
@@ -67,7 +68,7 @@ Docker Desktop 实际上在后台启动一个 Linux 虚拟机（WSL2 后端）�
 | `docker image prune` | 清理未使用的镜像 |
 | `docker volume prune` | 清理未使用的卷 |
 
-## 其他实用命令
+### 其他实用命令
 
 | 命令 | 说明 |
 |------|------|

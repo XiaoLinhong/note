@@ -1,5 +1,7 @@
 # spark
 
+spark 对 python 的支持更好。
+
 ## 搭建试验环境
 
 通过 Dcoker 安装 Spark，拉取**bitnami/spark**
@@ -46,15 +48,9 @@ docker-compose stop spark
 
 提交测试程序
 ``` bash
-
-## 在容器外部执行
-docker exec -it spark spark-submit --master spark://spark:7077 examples/src/main/python/pi.py 100
-
-## 进去容器执行
 docker exec -it 06e7aa696ece /bin/bash
 alias ls='ls --color'
 spark-submit examples/src/main/python/pi.py
-spark-submit --master spark://spark:7077 examples/src/main/python/pi.py 100
 ```
 
 **案例程序**
@@ -80,5 +76,3 @@ result = spark.sql("SELECT * FROM people WHERE Age > 25")
 # 显示查询结果
 result.show()
 ```
-
-
