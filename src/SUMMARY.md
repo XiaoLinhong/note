@@ -32,8 +32,9 @@
   - [rust](./program/rust/index.md)
     - [主要思想](./program/rust/chapter_1.md)
 
-  - [LLM](./program/LLM/index.md)
-    - [MCP](./program/LLM/chapter_1.md)
+  - [机器学习](./program/ML/index.md)
+    - [MCP](./program/ML/chapter_1.md)
+    - [transformer](./program/ML/chapter_2.md)
 
   - [前端开发](./program/front/index.md)
     - [名词解释](./program/front/chapter_1.md)
