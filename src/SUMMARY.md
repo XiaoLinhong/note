@@ -34,9 +34,8 @@
 
   - [机器学习](./program/ML/index.md)
     - [神经网络](./program/ML/neural_network.md)
-    - [cnn](./program/ML/cnn.md)
-    - [RNN](./program/ML/RNN.md)
-    - [LSTM](./program/ML/LSTM.md)
+    - [卷积神经网络](./program/ML/cnn.md)
+    - [循环神经网络](./program/ML/RNN.md)
     - [ResNet](./program/ML/ResNet.md)
     - [transformer](./program/ML/transformer.md)
     - [MCP](./program/ML/MCP.md)
