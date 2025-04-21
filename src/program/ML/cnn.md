@@ -116,3 +116,37 @@
 \\[ \frac{\partial C}{\partial y^{l-1}} =  Full \\; CONV \\:(180^o 旋转 W^l, \frac{\partial C}{\partial G^l}) \\]
 
 ![cnn12](images/cnn12.gif)
+
+
+### ResNet
+
+ResNet（Residual Neural Network）是一种深度卷积神经网络，由 Kaiming He 等人于 2015 年提出，用于解决深层神经网络训练中的退化问题。其核心思想是通过**残差连接**引入恒等映射，使得网络更容易训练。
+
+传统的前馈网络结构中，每一层的输出为：
+
+\\[
+\mathbf{y} = \mathcal{F}(\mathbf{x}, \{W_i\}) \\
+\\]
+
+其中，$\mathbf{x}$ 为输入，$\mathcal{F}$ 为非线性映射函数。
+
+而在 ResNet 中，加入了恒等映射：
+
+\\[
+\mathbf{y} = \mathcal{F}(\mathbf{x}, \{W_i\}) + \mathbf{x}
+\\]
+
+其中：
+- \\(\mathcal{F}(\mathbf{x})\\) 表示残差部分（如两层卷积 + ReLU），
+- \\(\mathbf{x}\\) 是 shortcut connection（跳跃连接）的输入，
+- 这样可以让网络学习残差 \\(\mathcal{F}(\mathbf{x})\\)，而不是完整的映射。
+
+在做残差连接时，需要处理维度对齐的问题。
+
+从优化角度看，残差连接将目标函数从直接学习 \\(H(x)\\) 转换为学习 \\(F(x) = H(x) - x\\)，更容易优化：
+
+\\[
+H(x) = F(x) + x
+\\]
+
+当最优映射接近恒等映射时，残差学习的目标 $F(x) \approx 0$，更加稳定。

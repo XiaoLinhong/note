@@ -36,7 +36,7 @@
     - [神经网络](./program/ML/neural_network.md)
     - [卷积神经网络](./program/ML/cnn.md)
     - [循环神经网络](./program/ML/RNN.md)
-    - [ResNet](./program/ML/ResNet.md)
+    - [embedding](./program/ML/embedding.md)
     - [transformer](./program/ML/transformer.md)
     - [MCP](./program/ML/MCP.md)
 
