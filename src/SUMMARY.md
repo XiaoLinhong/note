@@ -28,6 +28,7 @@
   - [开发工具](./program/devs/index.md)
     - [WSL](./program/devs/chapter_1.md)
     - [docker](./program/devs/chapter_2.md)
+    - [Jupyter Notebook](./program/devs/Notebook.md)
 
   - [rust](./program/rust/index.md)
     - [主要思想](./program/rust/chapter_1.md)
@@ -38,6 +39,7 @@
     - [循环神经网络](./program/ML/RNN.md)
     - [embedding](./program/ML/embedding.md)
     - [transformer](./program/ML/transformer.md)
+    - [diffusion model](./program/ML/diffusion.md)
     - [MCP](./program/ML/MCP.md)
 
   - [前端开发](./program/front/index.md)
