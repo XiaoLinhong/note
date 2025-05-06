@@ -1,5 +1,8 @@
 # 神经网络
 
+> Deep learning is a general framework for function approximation.
+> 
+
 神经网络是由神经元堆叠而成，单个神经元的公式如下
 
 \\[
@@ -24,6 +27,8 @@
  y_j^1 = \sigma(w_j^1x + b^1)
 \\]
 - 上标标识第几层
+
+> Neural nets are powerful approximators: any continuous function can be arbitrarily well approximated on a compact using a three-layer fully connected network F = f1 ◦ σ ◦ f2 (universal approximation theorem, Cybenko, 1989, Hornik, 1991).
 
 根据通用逼近定理（Universal Approximation Theorem），
 **如果激活函数是非线性且满足某些条件**（如连续、有界、非恒等于零），
