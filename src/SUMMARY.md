@@ -16,6 +16,7 @@
   
   - [概率](./math/probability/index.md)
     - [贝叶斯](./math/probability/chapter_1.md)
+    - [测度论](./math/probability/Measure.md)
 
 - [物理相关](./physics/index.md)
   - [热力学](./physics/thermodynamics/index.md)
