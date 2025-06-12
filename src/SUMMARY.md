@@ -17,6 +17,7 @@
   - [概率](./math/probability/index.md)
     - [贝叶斯](./math/probability/chapter_1.md)
     - [测度论](./math/probability/Measure.md)
+    - [独立随机变量序列](./math/probability/random_variable_sequence.md)
 
 - [物理相关](./physics/index.md)
   - [热力学](./physics/thermodynamics/index.md)
@@ -42,6 +43,7 @@
     - [transformer](./program/ML/transformer.md)
     - [diffusion model](./program/ML/diffusion.md)
     - [MCP](./program/ML/MCP.md)
+    - [地球大气状态预测](./program/ML/state.md)
 
   - [前端开发](./program/front/index.md)
     - [名词解释](./program/front/chapter_1.md)
