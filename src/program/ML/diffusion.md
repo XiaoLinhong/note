@@ -369,4 +369,7 @@ L_{\mathrm{HVAE}}(x) = & \ E_{q(z_1 | x)}[\log p(x | z_1)] - \sum_{l=1}^L \left[
 
 ## 扩散模式
 
-
+## Jarzynski 等式
+\\[
+  \int \rho(W, t_s) e^{-\beta W} dW = \frac{P_{final}}{P_{initial}}
+\\]

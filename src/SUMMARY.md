@@ -13,6 +13,7 @@
   
   - [分析](./math/analysis/index.md)
     - [变分法](./math/analysis/chapter_1.md)
+    - [物质导数](./math/analysis/chapter_2.md)
   
   - [概率](./math/probability/index.md)
     - [贝叶斯](./math/probability/chapter_1.md)
@@ -22,7 +23,10 @@
 - [物理相关](./physics/index.md)
   - [热力学](./physics/thermodynamics/index.md)
     - [熵](./physics/thermodynamics/chapter_1.md)
-    - [高斯烟团模型](./physics/thermodynamics/puff.md)
+  - [扩散](./physics/diffusion/index.md)
+    - [高斯烟团模型](./physics/diffusion/puff.md)
+  - [电磁学](./physics/electromagnetism/index.md)
+  - [量子力学](./physics/electromagnetism/index.md)
 
 - [编程技能](./program/index.md)
   - [文档工具](./program/docs/index.md)

@@ -2,14 +2,14 @@
 
 要对大气状态进行预报，我们需要构建模拟器:
 
-\[ \Phi: (X^{t-\Delta t}, X^{t}) \to  \hat{X}^{t+\Delta t}; \quad 
-X^{t} \in  R^{(V_s + V_a \times C) \times H \times W} \]
+\\[ \Phi: (X^{t-\Delta t}, X^{t}) \to  \hat{X}^{t+\Delta t}; \quad 
+X^{t} \in  R^{(V_s + V_a \times C) \times H \times W} \\]
 
-其中 \(X\) 表示大气状态变量（温度、气压等），\(t\) 表示当前事件，\(\Delta t\) 表示离散时间间隔， \(V_s\) 表示地表变量数（包括静态变量：地形，海陆，土壤），\(V_a\) 表示气压场变量数， \(C\) 表示气压层， \(H\) 表示维向网格数， \(W\) 表示经向网格数。
+其中 \\(X\\) 表示大气状态变量（温度、气压等），\\(t\\) 表示当前事件，\\(\Delta t\\) 表示离散时间间隔， \\(V_s\\) 表示地表变量数（包括静态变量：地形，海陆，土壤），\\(V_a\\) 表示气压场变量数， \\(C\\) 表示气压层， \\(H\\) 表示维向网格数， \\(W\\) 表示经向网格数。
 
 为了预报更长时间，用预报的数据作为输入，进行迭代计算
 
-\[ \hat{X}^{t+k\times \Delta t} = \Phi(\hat{X}^{t+(k-2) \times \Delta t}, \hat{X}^{t+(k-1) \times \Delta t} )  \]
+\\[ \hat{X}^{t+k\times \Delta t} = \Phi(\hat{X}^{t+(k-2) \times \Delta t}, \hat{X}^{t+(k-1) \times \Delta t} )  \\]
 
 ## 模式架构
 
